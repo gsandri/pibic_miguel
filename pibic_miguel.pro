@@ -5,9 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
-        ../dtw-1/src/dtw.cpp
+    dtw.cpp
 
 HEADERS += \
-        ../dtw-1/include/dtw/dtw.h
-
-INCLUDEPATH += ../dtw-1/include/
+    dtw.h
